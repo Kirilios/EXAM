@@ -1,6 +1,6 @@
 Проверочная работа:
 
-1. Создать репозиторий на GitHub - done
+1. Создать репозиторий на GitHub - done [https://github.com/Kirilios/EXAM.git]
 2. Нарисовать блок-схему алгоритма (можно обойтись блок-схемой основной содержательной части, если вы выделяете её в отдельный метод) - [https://vscode.dev/github/Kirilios/EXAM/blob/main/EXAM/save_project.jpg] или [EXAM\EXAM\save_project.jpg]
 3. Снабдить репозиторий оформленным текстовым описанием решения (файл README.md)
 4. Написать программу, решающую поставленную задачу [EXAM\EXAM\Programm\Program.cs]
