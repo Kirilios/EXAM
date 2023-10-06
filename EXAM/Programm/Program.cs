@@ -7,7 +7,7 @@
 [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []*/
-
+Console.Clear();
 string[] array = { "Hello", "2", "world", ":-)", "cyberpunk", "HL3" };
 string[] GiveBackNewMassive(string[] array)
 {
@@ -16,10 +16,24 @@ string[] GiveBackNewMassive(string[] array)
     {
         if (array[i].Length < 3)
         {
-            newArray.Append(array[i]);
+            newArray = newArray.Append(array[i]).ToArray();
         }
     }
     return newArray;
 }
+void PrintArray(string[] arrayToPrint)
+{
+    Console.Write("[");
+    for (int i = 0; i < arrayToPrint.Length; i++)
+    {
+        Console.Write($"{arrayToPrint[i]}, ");
+    }
+    Console.WriteLine("]");
+}
+PrintArray(array);
+Console.WriteLine();
+GiveBackNewMassive(array);
+
+
 
 
